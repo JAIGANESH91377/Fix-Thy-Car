@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "149285131354",
+    "firebase_url": "https://ftcl-2a894-default-rtdb.firebaseio.com",
+    "project_id": "ftcl-2a894",
+    "storage_bucket": "ftcl-2a894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149285131354:android:de3414e82b7a738f5cf463",
+        "android_client_info": {
+          "package_name": "com.example.ftcl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149285131354-n5jfujr1u6s8cadgckelublb53oov1sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv90PCEIxZQkw3t_LSclACi_ISbIw4zZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149285131354-n5jfujr1u6s8cadgckelublb53oov1sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149285131354:android:a8b9a65b305556365cf463",
+        "android_client_info": {
+          "package_name": "com.example.userftc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149285131354-n5jfujr1u6s8cadgckelublb53oov1sp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDv90PCEIxZQkw3t_LSclACi_ISbIw4zZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149285131354-n5jfujr1u6s8cadgckelublb53oov1sp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/fback"
+    tools:context=".Aboutus">
+
+    <TextView
+        android:id="@+id/header_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Contact Us"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/contact_imageview"
+        android:layout_width="360dp"
+        android:layout_height="234dp"
+        android:layout_below="@id/header_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/contact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/header_textview" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="303dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="24sp"
+        android:text="Contact Us :  93242 61334\n \nEmail Us :  ftc@gmail.com"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.642"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt2"
+        app:layout_constraintVertical_bias="0.234" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="299dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="FIX THY CAR"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_imageview"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="390dp"
+        android:layout_height="75dp"
+
+        android:layout_marginBottom="24dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/whatsaap_button3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/facebook_button"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            app:backgroundTint="#1D32A8"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/facebook_icon"
+            android:textColor="@color/purple_200" />
+
+        <Button
+            android:id="@+id/instagram_button"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            app:backgroundTint="#1D32A8"
+            android:layout_toRightOf="@id/facebook_button"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/instagram_icon"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/twitter_button2"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="14dp"
+            android:layout_toRightOf="@id/facebook_button"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/twitter_icon"
+            app:backgroundTint="#1D32A8"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/whatsaap_button"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="16dp"
+            app:backgroundTint="#1D32A8"
+            android:layout_toRightOf="@id/facebook_button"
+            android:background="@drawable/button_rounded"
+            android:drawableLeft="@drawable/whatsaap_icon"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/whatsaap_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_rounded"
+        android:text="Feedback"
+        app:backgroundTint="#1D32A8"
+        android:textColor="@color/white"
+        android:textColorHighlight="#B13333"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

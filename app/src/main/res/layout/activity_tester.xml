@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tester">
+
+<!--    <TextView-->
+<!--        android:id="@+id/header_textview"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:text="Contact Us"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="24sp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/contact_imageview"-->
+<!--        android:layout_width="376dp"-->
+<!--        android:layout_height="239dp"-->
+<!--        android:layout_below="@id/header_textview"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:src="@drawable/contact"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/header_textview" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/mobile_edittext"-->
+<!--        android:layout_width="375dp"-->
+<!--        android:layout_height="42dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="phone"-->
+<!--        android:hint="Phone"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/contact_imageview" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/email_edittext"-->
+<!--        android:layout_width="376dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:ems="10"-->
+<!--        android:hint="Email"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        app:hintColor="@color/black"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/mobile_edittext"-->
+<!--        app:layout_constraintHorizontal_bias="0.542"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/mobile_edittext"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/mobile_edittext" />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/editTextTextPersonName3"-->
+<!--        android:layout_width="376dp"-->
+<!--        android:layout_height="46dp"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:ems="10"-->
+<!--        android:inputType="textPersonName"-->
+<!--        android:hint="Ask Query"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/email_edittext"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="@+id/email_edittext"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/email_edittext" />-->
+
+<!--    <LinearLayout-->
+<!--        android:id="@+id/linearLayout2"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="24dp"-->
+<!--        android:orientation="horizontal"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"-->
+<!--        tools:layout_editor_absoluteX="0dp">-->
+
+<!--        <Button-->
+<!--            android:id="@+id/facebook_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/query_edittext"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:background="@drawable/button_rounded"-->
+<!--            android:drawableLeft="@drawable/facebook_icon"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/instagram_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/query_edittext"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginTop="12dp"-->
+<!--            android:layout_toRightOf="@id/facebook_button"-->
+<!--            android:background="@drawable/button_rounded"-->
+<!--            android:drawableLeft="@drawable/instagram_icon"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/twitter_button2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/query_edittext"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginTop="14dp"-->
+<!--            android:layout_toRightOf="@id/facebook_button"-->
+<!--            android:background="@drawable/button_rounded"-->
+<!--            android:drawableLeft="@drawable/twitter_icon"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/whatsaap_button"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/query_edittext"-->
+<!--            android:layout_marginLeft="12dp"-->
+<!--            android:layout_marginTop="16dp"-->
+<!--            android:layout_toRightOf="@id/facebook_button"-->
+<!--            android:background="@drawable/button_rounded"-->
+<!--            android:drawableLeft="@drawable/whatsaap_icon"-->
+<!--            android:textColor="@color/white" />-->
+
+<!--    </LinearLayout>-->
+
+<!--    <Button-->
+<!--        android:id="@+id/whatsaap_button3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/query_edittext"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_toRightOf="@id/facebook_button"-->
+<!--        android:background="@drawable/button_rounded"-->
+<!--        android:text="Feedback"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />-->
+</androidx.constraintlayout.widget.ConstraintLayout>
